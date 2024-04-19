@@ -1,0 +1,62 @@
+body {
+  background-position-y: -500px;
+  background-image: url("./etecFoto.jpg");
+  background-color: #1e4168; /* Azul escuro */
+  color: #fff;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  color: #fff;
+}
+
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 10px;
+}
+
+button {
+  background-color: #3a6ea5; /* Azul médio */
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #4e7fbb; /* Azul mais claro */
+}
+
+p {
+  margin: 5px 0;
+}
+
+.user-info {
+  background-color: #fff;
+  color: #333;
+  padding: 20px;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.user-info h2 {
+  color: #3a6ea5; /* Azul médio */
+}
+
+.user-info p {
+  margin: 5px 0;
+}
+
+.error-message {
+  color: #ff0000;
+  margin-top: 10px;
+}
+
